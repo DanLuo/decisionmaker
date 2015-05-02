@@ -1,0 +1,22 @@
+h1{position:absolute;
+   left:400px;
+   top:300px;
+   color:red;
+   background-color:yellow;
+   display:inline;
+   margin-right:10px;}
+h2{display:inline;
+   position:absolute;
+   top:400px;
+   left:500px;
+   color:red;}
+#b1{position:absolute;
+    left:1000px;
+    top:300px;
+    font-size:20;
+    display:inline;}
+#b2{position:absolute;
+    left:800px;
+    top:300px;
+    font-size:20;
+    display:inline;}
