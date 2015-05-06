@@ -4,15 +4,29 @@
 var names=['eee','rrr','ttt','qqq'];
 var Name;
 var name;
+var N=1;
+var Ns=[];
 getname=function(){
-Name=setInterval(function(){pickname()},50);
+Name=setInterval(function(){pickname()},50);};
 pickname=function(){
-i=Math.floor(Math.random()*4);
+l=names.length;
+i=Math.floor(Math.random()*l);
 name=names[i];
-document.getElementById("name").innerHTML=name;}
+document.getElementById("name").innerHTML=name;
 };
 
 stop=function()
 {clearInterval(Name);
-//document.getElementById("index").innerHTML="Hah Hah, you like "+name;
+ if (l!=1){
+var Ni="n"+N;
+document.getElementById(Ni).innerHTML=name;
+var index=names.indexOf(name);
+names.splice(index,1);
+Ns[N-1]=Ni;
+N=N+1;}
+else
+{document.getElementById("nn").innerHTML="The list is full";}
 };
+
+refresh=function()
+{parent.removeChild(
