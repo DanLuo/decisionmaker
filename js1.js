@@ -28,4 +28,7 @@ if (l<=2)
 };
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
