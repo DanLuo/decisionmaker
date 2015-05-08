@@ -40,3 +40,7 @@
     font-size:20;
     display:inline;}
 body{background-color:lightblue;}
+#election{position:absolute;
+          top:400px;
+          width:100%;
+    background-color: bisque;}
