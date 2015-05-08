@@ -21,14 +21,14 @@ stop=function()
 {clearInterval(Name);
 var Ni="n"+N;
 var role=roles[N-1];
-document.getElementById(Ni).innerHTML=name;
+//document.getElementById(Ni).innerHTML=name;
 document.getElementById(role).value=name;
 var index=names.indexOf(name);
 names.splice(index,1);
 //Ns[N-1]=Ni;
 N=N+1;
-if (l<=2)
-{document.getElementById("nn").innerHTML="The list is full";}
+if (N>5)
+{document.getElementById("name").innerHTML="The list is full";}
 };
 
 

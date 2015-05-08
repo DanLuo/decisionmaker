@@ -41,6 +41,32 @@
     display:inline;}
 body{background-color:lightblue;}
 #election{position:absolute;
-          top:400px;
+          top:200px;
           width:100%;
+          padding: 10px;
     background-color: bisque;}
+#vocal{font-size:1em;
+        text-align:center;}
+.vocal{text-align: center;
+       font-size:2em;
+       font-weight: bold;}
+.guitar{text-align: center;
+    font-size: 2em;
+    font-weight: bold;}
+.drum{text-align: center;
+     font-size: 2em;
+    font-weight: bold;}
+.bass{text-align: center;
+     font-size: 2em;
+    font-weight: bold;}
+.key{text-align: center;
+     font-size: 2em;
+    font-weight: bold;}
+#guitar{text-align:center;
+    font-size: 1em;}
+#drum{text-align: center;
+    font-size: 1em;}
+#bass{text-align: center;
+    font-size: 1em;}
+#keyboard{text-align: center;
+    font-size: 1em;}
